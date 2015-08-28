@@ -1,0 +1,24 @@
+doctype
+html
+  head
+    title Sign Up Page
+    link(rel='stylesheet',href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet',href='/stylesheets/style.css')
+    script(src='/javascripts/external_scripts/jquery.min.js')
+    script(src='/javascripts/external_scripts/bootstrap.min.js')
+  body
+    .container
+      .row
+        .col-md-6.col-md-offset-3
+          .main-wrapp
+            form.form-signup(action="/signup",method="post")
+              .form-group
+                input.form-control(type="email",name="email",placeholder='Your Email')
+              .form-group
+                input.form-control(type="password",name="password",placeholder='Your Password')
+              .form-group
+                input.btn.btn-primary.clickx2-button(type="submit", value="Sign up")
+              .form-group
+              a.btn.btn-primary(href='/login') Already have an account? Log in!
+                if err
+                  p #{err}

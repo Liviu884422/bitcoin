@@ -1,0 +1,37 @@
+{"name": "Bitcoin",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "express": "3.0.0alpha4",
+    "jade": "*",
+    "stylus": "*",
+    "nib": "*",
+    "morgan": "*",
+    "request": "*",
+    "later": "*",
+    "mysql": "*",
+    "moment": "*",
+    "jquery": "*",
+    "HTTPRequest": "*",
+    "passport":"*",
+    "passport-local":"*",
+    "connect-flash":"*",
+    "bcrypt-nodejs":"*",
+    "body-parser":"*",
+    "cookie-parser":"*",
+    "method-override":"*",
+    "express-session":"*"
+  },
+  "devDependencies": {
+    "async":"*",
+    "glob":"*",
+    "gulp": "~3.9.0",
+    "gulp-coffee":"*",
+    "gulp-concat":"*",
+    "gulp-define-module":"*",
+    "gulp-jade":"*",
+    "gulp-replace":"*",
+    "gulp-util":"*",
+    "nib":"*"
+  }
+}
